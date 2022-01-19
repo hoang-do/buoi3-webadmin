@@ -1,9 +1,8 @@
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import { Link, useHistory } from "react-router-dom";
-import { userState, useContext } from "react";
+import { useState, useContext } from "react";
 import { AuthContext } from "../../contexts/AuthContext";
-import { useState } from "react";
 
 const LoginForm = () => {
   // Context

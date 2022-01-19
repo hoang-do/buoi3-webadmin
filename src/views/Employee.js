@@ -1,7 +1,7 @@
 import NavbarMenu from "../components/layout/NavbarMenu";
 import { useContext, useEffect } from "react";
 import { EmployeeContext } from "../contexts/EmployeeContext";
-import Button from "react-bootstrap/button";
+import Button from "react-bootstrap/Button";
 import { apiUrl } from "../contexts/constants";
 import AddEmployeeModal from "../components/employees/AddEmployeeModal";
 import UpdateEmployeeModal from "../components/employees/UpdateEmployeeModal"

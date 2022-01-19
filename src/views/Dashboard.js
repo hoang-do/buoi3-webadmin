@@ -1,6 +1,6 @@
 import NavbarMenu from "../components/layout/NavbarMenu";
 import { useContext, useEffect } from "react";
-import Button from "react-bootstrap/button";
+import Button from "react-bootstrap/Button";
 import { DepartmentContext } from "../contexts/DepartmentContext";
 import AddDepartmentModal from "../components/departments/AddDepartmentModal";
 import UpdateDepartmentModal from "../components/departments/UpdateDepartmentModal"
